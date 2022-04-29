@@ -14,5 +14,12 @@ console.log(lastNameLength);
 //lastNameLength is now 7
 
 
-//
+//BRACKET NOTATION TO FIND THE FIRST CHARACTER IN A STRING
+const firstName = "Homer";
+let firstLetter = firstName[0];
+//firstLetter is now "H"
+
+
+//UNDERSTAND STRING IMMUTABILITY
+
 
