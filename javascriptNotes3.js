@@ -45,10 +45,23 @@ let thirdToLast = lastName[lastName.length - 3];
 
 
 //NEST ONE ARRAY INSIDE ANOTHER ARRAY
-const teams =[["Packers", 38], ["Suns", 34]];
+const teams = [["Packers", 38], ["Suns", 34]];
 
 
-//
+//ACCESS ARRAY DATA WITH INDEXES
+const numArray = [20, 30, 40 , 50, 60];
+let count = numArray[1];
+//count = 30
+
+
+//MODIFY ARRAY DATA WITH INDEXES
+const numArray = [10, 20, 30];
+numArray[1] = 69;
+//numArray is now [10, 69, 30]
+
+
+//ACCESS MULTI-DIMENSIONAL ARRAYS WITH INDEXES
+
 
 
 
