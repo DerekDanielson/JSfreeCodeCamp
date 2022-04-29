@@ -26,4 +26,10 @@ myStr = "This is a string";
 //Changes myStr to equal "This is a string"
 
 
+//BRACKET NOTATION TO FIND THE NTH CHARACTER IN A STRING
+const firstName = "Homer";
+let randomLetter = firstName[2];
+//randomLetter = "m"
 
+
+//
