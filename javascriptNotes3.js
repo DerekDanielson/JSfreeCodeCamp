@@ -21,5 +21,9 @@ let firstLetter = firstName[0];
 
 
 //UNDERSTAND STRING IMMUTABILITY
+let myStr = "Zhis is a string";
+myStr = "This is a string";
+//Changes myStr to equal "This is a string"
+
 
 
