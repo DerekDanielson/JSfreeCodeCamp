@@ -32,4 +32,92 @@ let randomLetter = firstName[2];
 //randomLetter = "m"
 
 
+//BRACKET NOTATION TO FIND THE LAST CHARACTER IN A STRING
+const firstName = "Homer";
+let lastLetter = firstName[firstName.length - 1];
+//lastLetter = "r"
+
+
+//BRACKET NOTATION TO FIND THE NTH-TO-THE LAST CHARACTER IN A STRING
+const lastName = "Simpson";
+let thirdToLast = lastName[lastName.length - 3];
+//thirdToLast = "s"
+
+
+//NEST ONE ARRAY INSIDE ANOTHER ARRAY
+const teams =[["Packers", 38], ["Suns", 34]];
+
+
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
