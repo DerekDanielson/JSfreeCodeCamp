@@ -21,3 +21,8 @@ myStr += "This is the second.";
 
 
 //CONSTRUCTING STRINGS WITH VARIABLES
+const myDog = "Sadie";
+const myStr = "My dog is " + myDog + ", I love her";
+//My dog is Sadie, I love her
+
+
