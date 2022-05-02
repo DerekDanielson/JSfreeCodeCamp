@@ -61,7 +61,93 @@ numArray[1] = 69;
 
 
 //ACCESS MULTI-DIMENSIONAL ARRAYS WITH INDEXES (Array or arrays)
-const arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], 13, 14];
+const arr = [
+    [1, 2, 3], 
+    [4, 5, 6], 
+    [7, 8, 9], 
+    [[10, 11, 12], 13, 14]
+];
+
+arr[3];         //[[10, 11, 12], 13, 14]
+arr[3][0];      //[10, 11, 12]
+arr[3][0][1];   //[11]
+
+
+//MANIPULATE ARRAYS WITH PUSH()
+let arr1 = [1, 2, 3];
+arr1.push(4);   //arr1 is now [1, 2, 3, 4]
+
+let arr2 = ["Simpson", "J", "Homer"];
+arr2.push(["happy", 5]);    //arr2 = ["simpson", "J", "Homer", ["happy", 5]]
+
+
+//MANIPULATE ARRAYS WITH .pop()
+let threeArr = [1, 2, 3];
+let oneDown = threeArr.pop();
+
+console.log(threeArr);  //[1, 2]
+console.log(oneDown);   //3
+
+
+//MANIPULATE ARRAYS WITH .shift()
+let ourArr = ["Simpson", "J", ["Dog", 3]];
+let removedFromOurArr = ourArr.shift();
+//removedFromOurArr = "Simpson"
+//ourArr = ["J", ["Dog", 3]]
+
+
+//MANIPULATE ARRAYS WITH .unshift()
+let ourArr = ["Simpson", "J", "dog"];
+ourArr.unshift("Happy");
+//ourArr = ["Happy", "Simpson", "J", "dog"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
