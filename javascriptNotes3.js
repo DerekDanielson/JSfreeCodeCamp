@@ -60,7 +60,8 @@ numArray[1] = 69;
 //numArray is now [10, 69, 30]
 
 
-//ACCESS MULTI-DIMENSIONAL ARRAYS WITH INDEXES
+//ACCESS MULTI-DIMENSIONAL ARRAYS WITH INDEXES (Array or arrays)
+const arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], 13, 14];
 
 
 
